@@ -1,0 +1,3 @@
+Open the solution file from `win32` folder in Visual Studio and build the project. Also, you should be able to build project file using MSBuild, without Visual Studio as a build requirement.
+
+For now, the project file is created only for `zopflipng` binary. Project files for `zopfli` binary or shared libraries could be easily created using the same principle.

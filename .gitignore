@@ -1,0 +1,9 @@
+/win32/zopflipngbin/Debug
+/win32/zopflipngbin/Release
+/win32/Debug
+/win32/Release
+
+*.opensdf
+*.sdf
+*.suo
+*.user

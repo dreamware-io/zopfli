@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="zopfli">
+      <UniqueIdentifier>{b276c54d-662a-44b9-84a3-1bf358f2a419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zopflipng">
+      <UniqueIdentifier>{aa6f2854-9a5a-4fc1-ada6-ef8b56e07f9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="zopflipng\lodepng">
+      <UniqueIdentifier>{e52e8f26-c1b1-46d2-b406-df742bcf13b2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\zopfli\blocksplitter.c">
+      <Filter>zopfli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zopfli\cache.c">
+      <Filter>zopfli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zopfli\deflate.c">
+      <Filter>zopfli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zopfli\gzip_container.c">
+      <Filter>zopfli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zopfli\hash.c">
+      <Filter>zopfli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zopfli\katajainen.c">
+      <Filter>zopfli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zopfli\lz77.c">
+      <Filter>zopfli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zopfli\squeeze.c">
+      <Filter>zopfli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zopfli\tree.c">
+      <Filter>zopfli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zopfli\util.c">
+      <Filter>zopfli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zopfli\zlib_container.c">
+      <Filter>zopfli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zopfli\zopfli_lib.c">
+      <Filter>zopfli</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zopflipng\zopflipng_bin.cc">
+      <Filter>zopflipng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zopflipng\zopflipng_lib.cc">
+      <Filter>zopflipng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zopflipng\lodepng\lodepng.cpp">
+      <Filter>zopflipng\lodepng</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\zopflipng\lodepng\lodepng_util.cpp">
+      <Filter>zopflipng\lodepng</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\zopfli\blocksplitter.h">
+      <Filter>zopfli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zopfli\cache.h">
+      <Filter>zopfli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zopfli\deflate.h">
+      <Filter>zopfli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zopfli\gzip_container.h">
+      <Filter>zopfli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zopfli\hash.h">
+      <Filter>zopfli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zopfli\katajainen.h">
+      <Filter>zopfli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zopfli\lz77.h">
+      <Filter>zopfli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zopfli\squeeze.h">
+      <Filter>zopfli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zopfli\symbols.h">
+      <Filter>zopfli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zopfli\tree.h">
+      <Filter>zopfli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zopfli\util.h">
+      <Filter>zopfli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zopfli\zlib_container.h">
+      <Filter>zopfli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zopfli\zopfli.h">
+      <Filter>zopfli</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zopflipng\zopflipng_lib.h">
+      <Filter>zopflipng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zopflipng\lodepng\lodepng.h">
+      <Filter>zopflipng\lodepng</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\zopflipng\lodepng\lodepng_util.h">
+      <Filter>zopflipng\lodepng</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
